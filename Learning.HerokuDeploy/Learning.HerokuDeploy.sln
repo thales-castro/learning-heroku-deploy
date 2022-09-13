@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devops", "Devops", "{93414002-8E42-45ED-BDAF-1C61F4B03226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{36E99D15-818B-4274-AD07-4880F1BB720B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{34300D4A-BB7C-4608-AB49-87B31F3CB9A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{1165531D-2E5D-4EB7-AE14-2E64589A9A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.HerokuDeploy.WebApi", "Source\Learning.HerokyDeploy.WebApi\Learning.HerokuDeploy.WebApi.csproj", "{2329AFF6-7E44-455D-AAA8-C95D7B21804D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2329AFF6-7E44-455D-AAA8-C95D7B21804D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2329AFF6-7E44-455D-AAA8-C95D7B21804D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2329AFF6-7E44-455D-AAA8-C95D7B21804D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2329AFF6-7E44-455D-AAA8-C95D7B21804D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1165531D-2E5D-4EB7-AE14-2E64589A9A21} = {93414002-8E42-45ED-BDAF-1C61F4B03226}
+		{2329AFF6-7E44-455D-AAA8-C95D7B21804D} = {36E99D15-818B-4274-AD07-4880F1BB720B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45856F72-E647-4BBF-906B-9946B87F3E06}
+	EndGlobalSection
+EndGlobal
